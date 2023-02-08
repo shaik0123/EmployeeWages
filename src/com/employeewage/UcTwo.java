@@ -1,4 +1,6 @@
-public class Main {
+package com.employeewage;
+
+public class UcTwo {
     public static void main(String[] args) {
         int IS_PRESENT = 1;
         int EMP_WAGE_PER_HOUR = 20;
@@ -14,6 +16,4 @@ public class Main {
         totalEarnings = (empWorkPerHour * EMP_WAGE_PER_HOUR );
         System.out.println("empWage" +totalEarnings);
     }
-
-
 }
